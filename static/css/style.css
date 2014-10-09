@@ -86,7 +86,7 @@ h5 {
   font-weight: 500;
 }
 h6 {
-  font-weight: normal;
+  font-weight: 300;
 }
 p {
   font-size: 18.004px;
@@ -116,7 +116,7 @@ blockquote {
 blockquote p {
   font-size: 20.006px;
   line-height: 1.549829;
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: .4em;
 }
 blockquote small {
@@ -514,10 +514,10 @@ h6,
   color: #2c3e50;
 }
 h1 {
-  font-weight: normal;
+  font-weight: 300;
 }
 h3 {
-  font-weight: normal;
+  font-weight: 300;
 }
 img {
   -webkit-backface-visibility: hidden;
@@ -540,7 +540,7 @@ input[type="color"],
 .uneditable-input {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
 }
 a:hover,
@@ -572,7 +572,7 @@ header {
 }
 header .brand {
   font-size: 25px;
-  font-weight: normal;
+  font-weight: 300;
   color: #34495e;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
@@ -598,10 +598,10 @@ section * {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: 20;
-  filter: alpha(opacity=2000);
-  opacity: 0.2;
-  filter: alpha(opacity=20);
+  opacity: 50;
+  filter: alpha(opacity=5000);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 .container {
   position: relative;
@@ -752,7 +752,7 @@ body > .navbar-collapse .nav > li > a {
   padding: 12px 35px;
   border-bottom: 2px solid #24292d;
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #5b5e61;
   text-transform: uppercase;
@@ -785,7 +785,7 @@ body > .navbar-collapse .subnav li > a {
   margin: 0;
   padding: 7px 35px;
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 300;
   color: #5b5e61;
   text-transform: capitalize;
 }
@@ -887,14 +887,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-4 .hero-unit h1 {
   margin: 20px 0 17px;
   font-size: 34px;
-  font-weight: normal;
+  font-weight: 300;
   color: #cecece;
   line-height: 44px;
   font-weight: 500;
 }
 .header-4 .hero-unit p {
   font-size: 21px;
-  font-weight: normal;
+  font-weight: 300;
   color: #cecece;
   line-height: 28px;
   font-weight: 300;
@@ -955,23 +955,26 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .content-8 h3 {
   text-align: center;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 300;
   color: #34495e;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 70px 0 35px;
+  margin: 0 0 35px;
 }
 .content-8 p {
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   margin-bottom: 10px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 18px;
 }
 .content-8 .img {
   max-width: 397px;
-  margin: 0 auto;
+  
 }
-.content-8 .img img {
+.content-8 img  {
   width: 100%;
+  margin: 0 auto 30px;
 }
 .content-8 .btn.btn-clear {
   -webkit-box-sizing: border-box;
@@ -980,7 +983,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background: none;
   border: 2px solid #3b80a7;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   font-weight: 500;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1056,7 +1059,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-4 h3 {
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 300;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 24px;
@@ -1064,7 +1067,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-4 p {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 26px;
@@ -1072,7 +1075,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .content-4 .features h6 {
   margin: 0 0 13px;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 300;
   color: #34495e;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1080,7 +1083,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-4 .features p {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
 }
 .content-4 .features > [class*="col-sm-"] {
@@ -1223,7 +1226,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-13-sub h3 {
   font-size: 29px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 26px;
@@ -1231,7 +1234,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-13-sub .lead {
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 300;
   color: #bdc3c7;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -1249,7 +1252,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 	line-height: 18px;
 	padding: 15px 20px 16px;
 	display: block;
-	font-weight: normal;
+	font-weight: 300;
 }
 .header-13-sub .background {
   background-image: url("../../startup/common-files/img/header/img-1.jpg");
@@ -1329,7 +1332,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin: 0 0 5px;
   text-align: center;
   font-size: 35px;
-  font-weight: normal;
+  font-weight: 300;
   color: #34495e;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1341,7 +1344,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-14 .lead {
   font-size: 25px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -1457,7 +1460,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .content-14 .features .box-5 {
   top: 112px;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -1470,7 +1473,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .content-14 .features .box-6 {
   top: 375px;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -1483,7 +1486,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .content-14 .features .box-7 {
   top: 625px;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -1496,7 +1499,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .content-14 .features .box-8 {
   top: 880px;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -1525,9 +1528,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-bottom: 130px;
   position: relative;
 }
+.content-9 .container {
+  border-top: 10px solid #f1f1f1;
+  padding-top: 70px;
+  margin-bottom: 70px;
+}
 .content-9 h3 {
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 300;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 24px;
@@ -1535,21 +1543,21 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-9 p {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   line-height: 30px;
 }
 .content-9 h6 {
   text-transform: none;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 300;
   color: #34495e;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 .content-9 .info {
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   margin-top: 40px;
 }
@@ -1620,7 +1628,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-10 h3 {
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 300;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 48px;
@@ -1628,7 +1636,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-10 p {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
 }
 .content-10 .features .box {
@@ -1653,7 +1661,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .content-10 .features h6 {
   text-transform: none;
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 300;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1663,7 +1671,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-10 .features p {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
 }
 /**
@@ -1719,7 +1727,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-15 .navbar .brand {
   padding-top: 21px;
   font-size: 25px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
 }
 .header-15 .navbar .brand img:first-child {
@@ -1748,7 +1756,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-15 .navbar .nav > li > a {
   padding: 29px 0 27px;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   color: #ffffff;
 }
@@ -1851,7 +1859,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-15-sub .hero-unit h1 {
   font-size: 46px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
   font-weight: 600;
   border: 8px solid white;
@@ -1861,7 +1869,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-15-sub .hero-unit p {
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
   font-weight: 800;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1871,13 +1879,13 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   display: block;
   margin-bottom: 20px;
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
 }
 @media (max-width: 480px) {
   .header-15-sub .hero-unit h1 {
     font-size: 20px;
-    font-weight: normal;
+    font-weight: 300;
     color: #ffffff;
     margin: 150px 0 90px;
   }
@@ -1894,10 +1902,15 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   display: block;
   margin: 0 auto 50px;
 }
+.content-5 .container .row .col-sm-10 {
+  border-bottom: 10px solid #f1f1f1;
+  padding-bottom: 70px;
+  margin-bottom: 30px;
+}
 .content-5 h3 {
   margin: 0 0 21px;
   font-size: 35px;
-  font-weight: normal;
+  font-weight: 300;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -1909,7 +1922,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-5 h3 + .lead {
   font-size: 25px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -1934,7 +1947,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   left: -45px;
   top: 7px;
   font-size: 25px;
-  font-weight: normal;
+  font-weight: 300;
   color: #2c3e50;
 }
 @media (max-width: 767px) {
@@ -1946,12 +1959,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-5 .features > [class*="col-sm-"] p {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
 }
 .content-5 .features > [class*="col-sm-"] h6 {
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 300;
   color: #34495e;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1976,7 +1989,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-25 h3 {
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 300;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1987,7 +2000,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   color: #7f8c8d;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 25px;
-  font-weight: normal;
+  font-weight: 300;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 18px;
 }
 .content-25 svg,
 .content-25 .svg {
@@ -2004,7 +2019,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-26 .lead {
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -2012,7 +2027,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-26 h3 {
   font-size: 35px;
-  font-weight: normal;
+  font-weight: 300;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -2311,7 +2326,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-bottom: 40px;
   text-align: center;
   font-size: 40px;
-  font-weight: normal;
+  font-weight: 300;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #7f8c8d;
   background: #2dad61;
@@ -2345,7 +2360,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-3 h3 {
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 300;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -2353,7 +2368,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-3 p {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   color: #7f8c8d;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 30px;
@@ -2437,7 +2452,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin-top: 0;
   margin-bottom: 22px;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 300;
   color: #34495e;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -2515,6 +2530,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transition: background-color 0.4s;
 }
 .crew-4 .members .photo {
+  border: 3px solid #fff;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2525,10 +2541,10 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   border-radius: 6px;
   overflow: hidden;
   background: 50% 50% no-repeat;
-  opacity: 30;
-  filter: alpha(opacity=3000);
-  opacity: 0.3;
-  filter: alpha(opacity=30);
+  opacity: 80;
+  filter: alpha(opacity=8000);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
   -webkit-transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
   -o-transition: opacity 0.4s;
@@ -2643,6 +2659,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-bottom: 95px;
   text-align: center;
 }
+.header-14-sub .btns {
+  margin-top:40px;
+}
 .header-14-sub h1,
 .header-14-sub .h1,
 .header-14-sub h2,
@@ -2663,7 +2682,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-14-sub h3 {
   font-size: 32px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
   font-weight: 300;
 }
@@ -2674,13 +2693,13 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .header-14-sub h3 {
-  margin: 0 0 30px;
+  margin: 0 0 15px;
 }
 .header-14-sub .header-14 {
   margin-bottom: 65px;
   text-align: center;
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
@@ -2689,14 +2708,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-14-sub .header-14 [class*="fui-"] {
   margin-bottom: 30px;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
 }
 .header-14-sub .hero-unit {
   display: table;
   border-collapse: collapse;
   padding: 0;
-  margin: 190px auto 170px;
+  margin: 190px auto 70px;
   background: transparent;
   color: white;
 }
@@ -2710,7 +2729,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-14-sub .hero-unit h1 {
   margin: 0;
   font-size: 46px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
   font-weight: 500;
 }
@@ -2722,7 +2741,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-14-sub .hero-unit p {
   margin: 0;
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ffffff;
 }
 @media (max-width: 480px) {
@@ -2731,12 +2750,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .header-14-sub .background {
-  background-image: url("../../startup/common-files/img/NY_001.jpg");
+  background-image: url("../../startup/common-files/img/NY_002.jpg");
   background-attachment: fixed;
-  opacity: 20;
-  filter: alpha(opacity=2000);
-  opacity: 0.2;
-  filter: alpha(opacity=20);
 }
 .header-14-sub .subscribe-form form {
   margin: 40px 0 10px;
