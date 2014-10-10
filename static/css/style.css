@@ -970,7 +970,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-8 .img {
   max-width: 397px;
-  
+  margin: 0 auto;  
 }
 .content-8 img  {
   width: 100%;
@@ -1528,6 +1528,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-bottom: 130px;
   position: relative;
 }
+.content-9 .container:first-child {
+  border:none;	
+}
 .content-9 .container {
   border-top: 10px solid #f1f1f1;
   padding-top: 70px;
@@ -1786,7 +1789,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   z-index: 2;
 }
 .header-15-sub {
-  min-height: 800px;
+  min-height: 500px;
   color: white;
   text-align: center;
   position: relative;
