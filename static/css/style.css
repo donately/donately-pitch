@@ -2499,8 +2499,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: 300;
 }
 .crew-4 .members {
-  display: table;
-  width: 100%;
+  /*display: table;*/
+  width: 50%;
+  float: left;
 }
 .crew-4 .members + .members {
   margin-top: 80px;
@@ -2554,7 +2555,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transition: opacity 0.4s;
 }
 .crew-4 .members .photo img {
-  display: none;
+  /*display: none;*/
+  position: relative;
+  top: -50px;
 }
 .crew-4 .members .overlay {
   display: block;
